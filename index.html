@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +7,52 @@
   <title>Reģistrācijas forma</title>
 </head>
 <body>
+<h2>Reģistrācijas forma</h2>
+<p style="border:1px; border-style:solid; border-color:black; padding: 1em;">
+  <label for="name">Ievietot vārdu:</label>
+  <input type="text" name="name" id="name" />
+  <label for="name">Ievietot paroli:</label>
+  <input type="password" id="password" />
+  </p>
+  <p style="border: 1px; border-style:solid; border-color:black; padding: 1em;">
+  <h4>Dzimums</h4>
+  <input type="radio" value="vīrietis" name="programming" id="">vīrietis
+  <br>
+  <input type="radio" value="sieviete" name="programming" id="">sieviete
+  <br>
+  <br>
+  <form>
+  <form action="" method="">
+  <label for="name">dzimšanas datums</label>
+  <input type date="dd/mm/yyyy" placeholder="dd/mm/yyyyy" />
+  </form>
+  <br>
+<h4>Adresse</h4>
+  <!-- Jūsu pilsēta -->
+  <label for="Jūsu pilsēta">Jūsu pilsēta</label>
+    <select name="pilsētas" id="">
+    <option value=""></option>
+    <option value="Rīga">Rīga</option>
+    <option value="Jelgava">Jelgava</option>
+    </select>
+    </p>
+  <br>
+  <!--Papildus info-->
+  <p style="border: 1px; border-style:solid; border-color:black; padding: 1em;"></p>
+  <p>Jūs varat izvēlēties jebkuru hobiju skaitu</p>
+  <input type="checkbox" value="Ceļojumi" name="programming" id="">Ceļojumi
+  <input type="checkbox" value="Programmēšana" name="programming" id="">Programmēšana
+  <br>
+  <input type="checkbox" value="Zīmēt" name="programming" id="">Zīmēt
+  <input type="checkbox" value="Spēlēt mūzikas instrumentus" name="programming" id="">Spēlēt mūzikas instrumentus
+<br>
+<br>
+  <h4>Papildus informācija</h4>
+  <textarea name="" id="" cols="100" rows="2"></textarea>
+  <br>
+  <br>
+  <input type="submit" value="sūtīt">
 
-
-  
 </body>
 
 </html>
